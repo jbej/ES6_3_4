@@ -40,6 +40,6 @@ console.log(average(...grades));
 
 const array = [1, 4, 'Iwona', false, 'Nowak'];
 
-const [firstName, lastName, ...rest] = array;
+const [, ,firstName, ,lastName] = array;
 
 console.log(`${firstName} ${lastName}`);
